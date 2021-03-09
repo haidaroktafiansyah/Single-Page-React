@@ -1,0 +1,54 @@
+img{
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.cover-first{
+  background-image: url('./images/example-image.jpg');
+  background-position: 50% 100%;
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.dividerStyle {
+  background-color : rgb(255, 255, 255)
+}
+
+.head-title{
+  margin-top: -250px;
+}
+
+.head-content{
+  margin-top: -100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .head-title{
+    background-color: rgb(42, 47, 51);
+    margin-top: 0;
+  }
+  
+  .head-content{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
